@@ -12,7 +12,7 @@ import { BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
 function App() {
   const design = {color:'red',textAlign:"center",fontSize:"1.5rem"}
   const initState = []
-  const [items,setItem] = useState(initState)
+  const [items,setItem] = useState([])
 
   const [reportincome,setReportincome] = useState(0)
   const [reportexpense,setReportexpense] = useState(0)
